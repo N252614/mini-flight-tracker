@@ -1,0 +1,24 @@
+/* Global styles for the whole page */
+/* Sets full height and background image */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Root container with background image */
+#root {
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("/plane.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
