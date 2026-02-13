@@ -42,6 +42,25 @@ The project demonstrates working with React components, state management, asynch
 
 ---
 
+## API
+
+The application uses the AviationStack API to retrieve flight data.
+
+Example endpoint:
+https://api.aviationstack.com/v1/flights?flight_iata=UA123
+
+The API key is stored in environment variables for security.
+
+---
+
+## Challenges
+
+- Handling asynchronous loading states
+- Working with external API limits
+- Designing a simple but clear UI
+
+---
+
 ## Installation
 
 Clone the repository:
@@ -117,7 +136,6 @@ screenshot.png
 - Map view for flights
 - Save favorite flights
 - Mobile optimization  
-
 
 ---
 
